@@ -25,11 +25,24 @@ i18n
 
           // Home
           welcome: 'Welcome to My Portfolio',
-          welcome_subtitle: 'I\'m a passionate developer creating modern and responsive web applications.',
+          welcome_subtitle: 'I’m a backend engineer working on REST APIs for web and mobile applications, asynchronous systems with Celery and Redis, ETL pipelines for data visualization, and real-time features via WebSockets.',
 
           // About
           about_me: 'About Me',
-          'about_me_description': 'I am a software engineer with a passion for building beautiful and functional applications. I have experience with a variety of technologies, including React, TypeScript, Node.js, and more.',
+          'about_me_description': `Hi! My name is EL GHIZI Yassine, I’m a backend engineer with a Bachelor’s degree in Computer Engineering and a Master’s in Big Data.
+
+I have over 3.5 years of experience designing and developing robust backend systems for web and mobile applications. My main stack includes Python (Django), PostgreSQL, Celery, Redis, Docker, and AWS services like EC2, RDS, S3, Lambda, and API Gateway.
+
+My work covers a wide range of backend solutions:
+
+- REST APIs for web and mobile apps
+- Asynchronous systems with Celery and Redis
+- ETL pipelines to feed analytics database
+- Real-time features with WebSockets
+
+I also take care of database design, API architecture, technical estimations, and collaborate with clients and project managers to clarify requirements and deliver high-quality results.
+
+I’m passionate about clean, scalable code and enjoy working in motivated teams on projects that make an impact.`,
 
           // Education
           university: 'University of Example',
@@ -79,11 +92,24 @@ i18n
 
           // Home
           welcome: 'Bienvenue sur mon portfolio',
-          welcome_subtitle: 'Je suis un développeur passionné qui crée des applications web modernes et réactives.',
+          welcome_subtitle: 'Je suis un ingénieur backend: je développe des APIs REST pour des applications web et mobiles, des systèmes asynchrones avec Celery et Redis, des pipelines ETL pour la visualisation de données et des fonctionnalités en temps réel via les WebSockets.',
 
           // About
           about_me: 'À propos de moi',
-          'about_me_description': 'Je suis un ingénieur logiciel passionné par la création d\'applications belles et fonctionnelles. J\'ai de l\'expérience avec une variété de technologies, notamment React, TypeScript, Node.js, et plus encore.',
+          'about_me_description': `Bonjour! Je m'appelle EL GHIZI Yassine, je suis ingénieur backend, diplômé en génie informatique et titulaire d’un master en Big Data.
+
+Avec plus de 2 ans et demi d’expérience, je conçois et développe des systèmes backend performants pour des applications web et mobiles. J’utilise principalement Python (Django), PostgreSQL, Celery, Redis, Docker et des services cloud comme AWS EC2, RDS, S3, Lambda et API Gateway.
+
+Mes missions couvrent différents types de projets backend :
+
+- APIs REST pour applications web et mobiles
+- Systèmes asynchrones avec Celery et Redis
+- Pipelines ETL pour alimenter des bases de données analytiques
+- Fonctionnalités temps réel avec WebSockets
+
+Je prends également en charge la conception de bases de données, l’architecture des APIs, les estimations techniques et la communication avec les clients et les équipes.
+
+Passionné par le développement de solutions robustes et scalables, je cherche toujours à progresser et à contribuer à des projets d’envergure.`,
 
           // Education
           university: 'Université d\'Exemple',
