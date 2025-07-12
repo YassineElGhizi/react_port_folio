@@ -45,28 +45,117 @@ I also take care of database design, API architecture, technical estimations, an
 I’m passionate about clean, scalable code and enjoy working in motivated teams on projects that make an impact.`,
 
           // Education
-          university: 'University of Example',
-          degree: 'Bachelor of Science in Computer Science',
-
+          education_list: [
+            {
+              degree: 'Master in Big Data',
+              university: 'Faculty of Science and Technology',
+              period: '2020 – 2022',
+              location: 'Tangier, Morocco',
+            },
+            {
+              degree: 'Bachelor\'s in Computer Science',
+              university: 'Faculty of Science and Technology',
+              period: '2019 – 2020',
+              location: 'Tangier, Morocco',
+            },
+          ],
+          
           // Experience
-          software_engineer: 'Software Engineer',
-          tech_company: 'Tech Company | 2022 - Present',
-          swe_task_1: 'Developed and maintained web applications using React and TypeScript.',
-          swe_task_2: 'Collaborated with cross-functional teams to deliver high-quality software.',
-          swe_task_3: 'Implemented new features and fixed bugs in existing applications.',
-          junior_developer: 'Junior Developer',
-          another_company: 'Another Company | 2020 - 2022',
-          jd_task_1: 'Assisted in the development of web applications.',
-          jd_task_2: 'Learned and applied new technologies.',
-          jd_task_3: 'Participated in code reviews and team meetings.',
+          experience_list: [
+            {
+              title: 'BACKEND ENGINEER',
+              company: 'Smarteez - Digital Factory',
+              period: 'February 2023 – Present',
+              location: 'Casablanca, Morocco',
+              description: [
+                'Designed and developed robust REST APIs.',
+                'Implemented task queues for asynchronous task management.',
+                'Modeled and optimized relational databases.',
+                'Wrote unit and integration tests to ensure software quality.',
+                'Estimated technical tasks.',
+                'Designed and developed optimized ETL pipelines for data processing and transformation (Python, SQL).',
+                'Created interactive dashboards and data analyses with Apache Superset to support decision-making.'
+              ],
+              tags: [
+                'Python', 'Django', 'Django Rest Framework', 'Celery', 'SQL', 'PostgreSQL', 'Redis', 'Docker', 'Amazon Web Services', 'EC2', 'RDS', 'S3', 'Lambda', 'API Gateway', 'SNS', 'ETL', 'Data Pipelining', 'SQL', 'Apache Superset', 'Database Tuning', 'Query Optimization'
+              ],
+              achievements_title: 'Achievements:',
+              achievements: [
+                  'Significantly reduced internal costs by replacing most paid tools with open-source solutions while maintaining service continuity and performance.',
+                  'Promoted 3 times in 2 years and 3 months, progressing from Backend Developer to Team Lead (team of 5 people).'
+              ],
+              clients_title: 'Clients:',
+              clients: 'Danone, Endesa, L\'Oréal Morocco, Sanlam Morocco, Radio Aswat, Zoubairi Distribution, Mahindra Morocco, Ma Franchise, Publicis - WBC, Lazrak Immobilier.'
+            },
+            {
+              title: 'BACKEND ENGINEER INTERN',
+              company: 'Tingis Web',
+              period: 'February 2022 – August 2022',
+              location: 'Tangier, Morocco',
+              description: [
+                'Designed and developed optimized ETL pipelines for data processing and transformation (Python, SQL).',
+                'Designed and developed robust REST APIs.'
+              ],
+              tags: [
+                'ETL', 'Web Scraping', 'Python', 'Apache Airflow', 'Data Migration', 'S3', 'FastAPI', 'Laravel', 'MySQL'
+              ]
+            },
+            {
+              title: 'BACKEND DEVELOPER INTERN',
+              company: 'Chakir Groupe',
+              period: 'August 2021 – October 2021',
+              location: 'Tangier, Morocco',
+              description: [
+                'Developed web scraping scripts for automated data extraction.',
+                'Designed and developed robust REST APIs.',
+                'Full-stack development.'
+              ],
+              tags: [
+                'ETL', 'Web Scraping', 'Python', 'Flask', 'MySQL', 'Laravel'
+              ]
+            },
+            {
+              title: 'FULL-STACK DEVELOPER INTERN',
+              company: 'Faculty of Science and Technology',
+              period: 'April 2020 – June 2020',
+              location: 'Tangier, Morocco',
+              description: [
+                'Full-stack development with React, MySQL, and Laravel.'
+              ],
+              tags: [
+                'React', 'MySQL', 'Laravel'
+              ]
+            }
+          ],
 
           // Projects
-          project1_title: 'Project 1',
-          project1_description: 'A brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          project2_title: 'Project 2',
-          project2_description: 'A brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          project3_title: 'Project 3',
-          project3_description: 'A brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          project_list: [
+            {
+              title: 'AWS-Docker-Django',
+              link: 'https://github.com/YassineElGhizi/AWS-Docker-Django',
+              image: 'https://private-user-images.githubusercontent.com/86019502/358865090-06b90c27-2d5e-474c-984a-e7d75d3cb173.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTIzNDg0MzMsIm5iZiI6MTc1MjM0ODEzMywicGF0aCI6Ii84NjAxOTUwMi8zNTg4NjUwOTAtMDZiOTBjMjctMmQ1ZS00NzRjLTk4NGEtZTdkNzVkM2NiMTczLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzEyVDE5MjIxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk1M2IxMzA2OTQ5NTgyY2RhNzQ0ZDhkZTEzMmQ2NDcxNGZiZDEwMTVhZGViZjJkNTE5NTNlYjZkZjQ5ZDU5MzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JqhvOe3Er_RvP9XmlV_1xJbVj51WGGhK2MCWSHXgRZ4'
+            },
+            {
+              title: 'Fake_News_Detection',
+              link: 'https://github.com/YassineElGhizi/Fake_News_Detection',
+              image: 'https://user-images.githubusercontent.com/86019502/144763708-6c1d922f-9178-4674-98e5-929fa89176c6.png'
+            },
+            {
+              title: 'Content_image_search - Gabor_filters',
+              link: 'https://github.com/YassineElGhizi/content_based_image_search_gabor_filters',
+              image: 'https://user-images.githubusercontent.com/86019502/147650951-26f9e0a6-56e5-440a-bb55-0a37977bb6e5.jpg'
+            },
+            {
+              title: 'Architecture_Client-_Serveur_en_C',
+              link: 'https://github.com/YassineElGhizi/Architecture_Client-_Serveur_en_C',
+              image: 'https://user-images.githubusercontent.com/86019502/125940790-3f8940a9-8094-485f-b913-d2d115d41b82.png'
+            },
+            {
+              title: 'python_on_steroids_with_Numba',
+              link: 'https://github.com/YassineElGhizi/python_on_steroids_with_Numba',
+              image: 'https://user-images.githubusercontent.com/86019502/144307900-ce1b8b67-c601-4aae-a12c-1661657fa2e9.PNG'
+            },
+          ],
 
           // Contact
           contact_me: 'Contact Me',
@@ -112,28 +201,117 @@ Je prends également en charge la conception de bases de données, l’architect
 Passionné par le développement de solutions robustes et scalables, je cherche toujours à progresser et à contribuer à des projets d’envergure.`,
 
           // Education
-          university: 'Université d\'Exemple',
-          degree: 'Baccalauréat en sciences informatiques',
+          education_list: [
+            {
+              degree: 'Master en Big Data',
+              university: 'Faculté des Sciences et Techniques',
+              period: '2020 – 2022',
+              location: 'Tanger, Maroc',
+            },
+            {
+              degree: 'Licence en Informatique',
+              university: 'Faculté des Sciences et Techniques',
+              period: '2019 – 2020',
+              location: 'Tanger, Maroc',
+            },
+          ],
 
           // Experience
-          software_engineer: 'Ingénieur logiciel',
-          tech_company: 'Entreprise de technologie | 2022 - Aujourd\'hui',
-          swe_task_1: 'Développement et maintenance d\'applications web en utilisant React et TypeScript.',
-          swe_task_2: 'Collaboration avec des équipes interfonctionnelles pour livrer des logiciels de haute qualité.',
-          swe_task_3: 'Implémentation de nouvelles fonctionnalités et correction de bugs dans les applications existantes.',
-          junior_developer: 'Développeur junior',
-          another_company: 'Une autre entreprise | 2020 - 2022',
-          jd_task_1: 'Aide au développement d\'applications web.',
-          jd_task_2: 'Apprentissage et application de nouvelles technologies.',
-          jd_task_3: 'Participation aux revues de code et aux réunions d\'équipe.',
+          experience_list: [
+            {
+                title: 'INGÉNIEUR BACKEND',
+                company: 'Smarteez - Digital factory',
+                period: 'Février 2023 – Présent',
+                location: 'Casablanca, Maroc',
+                description: [
+                    'Conception et développement d’APIs REST robustes.',
+                    'Mise en place de files d’attente (task queues) pour la gestion des tâches asynchrones.',
+                    'Modélisation et optimisation des bases de données relationnelles.',
+                    'Écriture de tests unitaires et d’intégration pour garantir la qualité logicielle.',
+                    'Estimation des tâches techniques.',
+                    'Conception et développement de pipelines ETL optimisés pour le traitement et la transformation de données (Python, SQL).',
+                    'Création de tableaux de bord interactifs et d’analyses avec Apache Superset pour faciliter la prise de décision.'
+                ],
+                tags: [
+                    'Python', 'Django', 'Django Rest Framework', 'Celery', 'SQL', 'PostgreSQL', 'Redis', 'Docker', 'Amazon Web Services', 'EC2', 'RDS', 'S3', 'lambda', 'API Gateway', 'SNS', 'ETL', 'Data Pipelining', 'SQL', 'Apache SuperSet', 'Database Tunning', 'Query Optimization'
+                ],
+                clients_title: 'Clients :',
+                clients: 'Danone, Endesa, Oréal Maroc, Sanlam Maroc, Radio Aswat, Zoubairi Distribution, Mahindra Maroc, Ma franchise, Publicis - WBC, Lazrak immobilier.',
+                achievements_title: 'Réalisations:',
+                achievements: [
+                    'Réduction significative des coûts internes en remplaçant la majorité des outils payants par des solutions open-source, tout en assurant la continuité et la performance des services.',
+                    'Promu 3 fois en 2 ans et 3 mois, évoluant de Développeur Back-end à Team Lead (équipe de 5 personnes).'
+                ]
+            },
+            {
+                title: 'STAGE INGÉNIEUR BACKEND',
+                company: 'Tingis Web',
+                period: 'Février 2022 – Août 2022',
+                location: 'Tanger, Maroc',
+                description: [
+                    'Conception et développement de pipelines ETL optimisés pour le traitement et la transformation de données (Python, SQL).',
+                    'Conception et développement d’APIs REST robustes.'
+                ],
+                tags: [
+                    'ETL', 'Scraping Web', 'Python', 'Apache Airflow', 'Data Migration', 'S3', 'FastAPI', 'Laravel', 'MySQL'
+                ]
+            },
+            {
+                title: 'STAGE DÉVELOPPEUR BACKEND',
+                company: 'Chakir Groupe',
+                period: 'Août 2021 – Octobre 2021',
+                location: 'Tanger, Maroc',
+                description: [
+                    'Développement de scripts de scraping web pour l’extraction automatisée de données.',
+                    'Conception et développement d’APIs REST robustes.',
+                    'développement full-stack.'
+                ],
+                tags: [
+                    'ETL', 'Scraping Web', 'Python', 'Flask', 'MySQL', 'Laravel'
+                ]
+            },
+            {
+                title: 'STAGE DÉVELOPPEUR FULL-STACK',
+                company: 'Faculté des sciences et techniques',
+                period: 'Avril 2020 – juin 2020',
+                location: 'Tanger, Maroc',
+                description: [
+                    'Développement full-stack avec React, MySQL et Laravel.'
+                ],
+                tags: [
+                    'React', 'MySQL', 'Laravel'
+                ]
+            }
+          ],
 
           // Projects
-          project1_title: 'Projet 1',
-          project1_description: 'Une brève description de votre projet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          project2_title: 'Projet 2',
-          project2_description: 'Une brève description de votre projet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          project3_title: 'Projet 3',
-          project3_description: 'Une brève description de votre projet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          project_list: [
+            {
+              title: 'AWS-Docker-Django',
+              link: 'https://github.com/YassineElGhizi/AWS-Docker-Django',
+              image: 'https://private-user-images.githubusercontent.com/86019502/358865090-06b90c27-2d5e-474c-984a-e7d75d3cb173.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTIzNDg0MzMsIm5iZiI6MTc1MjM0ODEzMywicGF0aCI6Ii84NjAxOTUwMi8zNTg4NjUwOTAtMDZiOTBjMjctMmQ1ZS00NzRjLTk4NGEtZTdkNzVkM2NiMTczLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzEyVDE5MjIxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk1M2IxMzA2OTQ5NTgyY2RhNzQ0ZDhkZTEzMmQ2NDcxNGZiZDEwMTVhZGViZjJkNTE5NTNlYjZkZjQ5ZDU5MzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JqhvOe3Er_RvP9XmlV_1xJbVj51WGGhK2MCWSHXgRZ4'
+            },
+            {
+              title: 'Fake_News_Detection',
+              link: 'https://github.com/YassineElGhizi/Fake_News_Detection',
+              image: 'https://user-images.githubusercontent.com/86019502/144763708-6c1d922f-9178-4674-98e5-929fa89176c6.png'
+            },
+            {
+              title: 'content_based_image_search_gabor_filters',
+              link: 'https://github.com/YassineElGhizi/content_based_image_search_gabor_filters',
+              image: 'https://user-images.githubusercontent.com/86019502/147650951-26f9e0a6-56e5-440a-bb55-0a37977bb6e5.jpg'
+            },
+            {
+              title: 'Architecture_Client-_Serveur_en_C',
+              link: 'https://github.com/YassineElGhizi/Architecture_Client-_Serveur_en_C',
+              image: 'https://user-images.githubusercontent.com/86019502/125940790-3f8940a9-8094-485f-b913-d2d115d41b82.png'
+            },
+            {
+              title: 'python_on_steroids_with_Numba',
+              link: 'https://github.com/YassineElGhizi/python_on_steroids_with_Numba',
+              image: 'https://user-images.githubusercontent.com/86019502/144307900-ce1b8b67-c601-4aae-a12c-1661657fa2e9.PNG'
+            },
+          ],
 
           // Contact
           contact_me: 'Contactez-moi',
