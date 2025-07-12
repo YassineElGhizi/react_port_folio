@@ -23,6 +23,10 @@ i18n
           projects: 'Projects',
           contact: 'Contact',
 
+          // Home
+          welcome: 'Welcome to My Portfolio',
+          welcome_subtitle: 'I\'m a passionate developer creating modern and responsive web applications.',
+
           // About
           about_me: 'About Me',
           'about_me_description': 'I am a software engineer with a passion for building beautiful and functional applications. I have experience with a variety of technologies, including React, TypeScript, Node.js, and more.',
@@ -72,6 +76,10 @@ i18n
           experience: 'Expérience',
           projects: 'Projets',
           contact: 'Contact',
+
+          // Home
+          welcome: 'Bienvenue sur mon portfolio',
+          welcome_subtitle: 'Je suis un développeur passionné qui crée des applications web modernes et réactives.',
 
           // About
           about_me: 'À propos de moi',
