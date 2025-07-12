@@ -22,6 +22,7 @@ const Header: React.FC = () => {
           <li className="my-2 md:my-0"><a href="#about" className="text-gray-800 hover:text-blue-500 transition duration-300">About</a></li>
           <li className="my-2 md:my-0"><a href="#skills" className="text-gray-800 hover:text-blue-500 transition duration-300">Skills</a></li>
           <li className="my-2 md:my-0"><a href="#education" className="text-gray-800 hover:text-blue-500 transition duration-300">Education</a></li>
+          <li className="my-2 md:my-0"><a href="#experience" className="text-gray-800 hover:text-blue-500 transition duration-300">Experience</a></li>
           <li className="my-2 md:my-0"><a href="#projects" className="text-gray-800 hover:text-blue-500 transition duration-300">Projects</a></li>
           <li className="my-2 md:my-0"><a href="#contact" className="text-gray-800 hover:text-blue-500 transition duration-300">Contact</a></li>
         </ul>
