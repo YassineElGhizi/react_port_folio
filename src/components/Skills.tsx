@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Skills: React.FC = () => {
+  const { t } = useTranslation();
   const categorizedSkills = {
     'Frontend': ['HTML/CSS', 'JavaScript', 'TypeScript', 'React', 'Tailwind CSS'],
     'Backend': ['Node.js'],
@@ -10,7 +12,7 @@ const Skills: React.FC = () => {
   return (
     <section id="skills" className="py-20">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12">Skills</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">{t('skills')}</h2>
         <div className="space-y-10">
           {Object.entries(categorizedSkills).map(([category, skills]) => (
             skills.length > 0 && (
