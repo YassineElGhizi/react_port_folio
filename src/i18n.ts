@@ -289,7 +289,7 @@ Passionné par le développement de solutions robustes et scalables, je cherche 
             {
               title: 'AWS-Docker-Django',
               link: 'https://github.com/YassineElGhizi/AWS-Docker-Django',
-              image: 'https://private-user-images.githubusercontent.com/86019502/358865090-06b90c27-2d5e-474c-984a-e7d75d3cb173.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTIzNDg0MzMsIm5iZiI6MTc1MjM0ODEzMywicGF0aCI6Ii84NjAxOTUwMi8zNTg4NjUwOTAtMDZiOTBjMjctMmQ1ZS00NzRjLTk4NGEtZTdkNzVkM2NiMTczLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzEyVDE5MjIxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk1M2IxMzA2OTQ5NTgyY2RhNzQ0ZDhkZTEzMmQ2NDcxNGZiZDEwMTVhZGViZjJkNTE5NTNlYjZkZjQ5ZDU5MzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JqhvOe3Er_RvP9XmlV_1xJbVj51WGGhK2MCWSHXgRZ4'
+              image: 'https://github.com/user-attachments/assets/06b90c27-2d5e-474c-984a-e7d75d3cb173'
             },
             {
               title: 'Fake_News_Detection',
