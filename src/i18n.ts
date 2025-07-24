@@ -88,6 +88,20 @@ I’m passionate about clean, scalable code and enjoy working in motivated teams
               clients: 'Danone, Endesa, L\'Oréal Morocco, Sanlam Morocco, Radio Aswat, Zoubairi Distribution, Mahindra Morocco, Ma Franchise, Publicis - WBC, Lazrak Immobilier.'
             },
             {
+              title: 'BACK END ENGINEER',
+              company: 'Chakir Groupe - Freelance',
+              period: 'September 2022 – January 2023',
+              location: 'Tangier, Morocco',
+              description: [
+                'Managed and enhanced legacy Laravel & MySQL applications (+7 years old).',
+                'Optimized database performance, reducing average SQL query execution time.',
+                'Built and deployed a data pipeline using Python, FastAPI, and MySQL.'
+              ],
+              tags: [
+                'Python', 'FastAPI', 'Laravel', 'MySQL', 'Data Pipelining', 'Database Tuning', 'Query Optimization'
+              ]
+            },
+            {
               title: 'BACKEND ENGINEER INTERN',
               company: 'Tingis Web',
               period: 'February 2022 – August 2022',
@@ -153,7 +167,7 @@ I’m passionate about clean, scalable code and enjoy working in motivated teams
             {
               title: 'python_on_steroids_with_Numba',
               link: 'https://github.com/YassineElGhizi/python_on_steroids_with_Numba',
-              image: 'https://user-images.githubusercontent.com/86019502/144307900-ce1b8b67-c601-4aae-a12c-1661657fa2e9.PNG'
+              image: 'https://user-images.githubusercontent.com/86019502/144307900-ce1b8b67-c601-4aae-a12c-1661667fa2e9.PNG'
             },
           ],
 
@@ -185,20 +199,7 @@ I’m passionate about clean, scalable code and enjoy working in motivated teams
 
           // About
           about_me: 'À propos de moi',
-          'about_me_description': `Bonjour! Je m'appelle EL GHIZI Yassine, je suis ingénieur backend, diplômé en génie informatique et titulaire d’un master en Big Data.
-
-Avec plus de 3 ans et demi d’expérience, je conçois et développe des systèmes backend performants pour des applications web et mobiles. J’utilise principalement Python (Django), PostgreSQL, Celery, Redis, Docker et des services cloud comme AWS EC2, RDS, S3, Lambda et API Gateway.
-
-Mes missions couvrent différents types de projets backend :
-
-- APIs REST pour applications web et mobiles
-- Systèmes asynchrones avec Celery et Redis
-- Pipelines ETL pour alimenter des bases de données analytiques
-- Fonctionnalités temps réel avec WebSockets
-
-Je prends également en charge la conception de bases de données, l’architecture des APIs, les estimations techniques et la communication avec les clients et les équipes.
-
-Passionné par le développement de solutions robustes et scalables, je cherche toujours à progresser et à contribuer à des projets d’envergure.`,
+          'about_me_description': `Bonjour! Je m'appelle EL GHIZI Yassine, je suis ingénieur backend, diplômé en génie informatique et titulaire d’un master en Big Data.\n\nAvec plus de 3 ans et demi d’expérience, je conçois et développe des systèmes backend performants pour des applications web et mobiles. J’utilise principalement Python (Django), PostgreSQL, Celery, Redis, Docker et des services cloud comme AWS EC2, RDS, S3, Lambda et API Gateway.\n\nMes missions couvrent différents types de projets backend :\n\n- APIs REST pour applications web et mobiles\n- Systèmes asynchrones avec Celery et Redis\n- Pipelines ETL pour alimenter des bases de données analytiques\n- Fonctionnalités temps réel avec WebSockets\n\nJe prends également en charge la conception de bases de données, l’architecture des APIs, les estimations techniques et la communication avec les clients et les équipes.\n\nPassionné par le développement de solutions robustes et scalables, je cherche toujours à progresser et à contribuer à des projets d’envergure.`,
 
           // Education
           education_list: [
@@ -242,6 +243,20 @@ Passionné par le développement de solutions robustes et scalables, je cherche 
                     'Réduction significative des coûts internes en remplaçant la majorité des outils payants par des solutions open-source, tout en assurant la continuité et la performance des services.',
                     'Promu 3 fois en 2 ans et 3 mois, évoluant de Développeur Back-end à Team Lead (équipe de 5 personnes).'
                 ]
+            },
+            {
+              title: 'INGÉNIEUR BACK-END',
+              company: 'Chakir Groupe - Freelance',
+              period: 'Septembre 2022 – Janvier 2023',
+              location: 'Tanger, Maroc',
+              description: [
+                'Gestion et amélioration d\'applications legacy Laravel & MySQL (+7 ans d\'âge).',
+                'Optimisation des performances de la base de données, réduisant le temps d\'exécution moyen des requêtes SQL.',
+                'Construction et déploiement d\'un pipeline de données en utilisant Python, FastAPI, et MySQL.'
+              ],
+              tags: [
+                'Python', 'FastAPI', 'Laravel', 'MySQL', 'Data Pipelining', 'Database Tuning', 'Query Optimization'
+              ]
             },
             {
                 title: 'STAGE INGÉNIEUR BACKEND',
@@ -310,7 +325,7 @@ Passionné par le développement de solutions robustes et scalables, je cherche 
               title: 'python_on_steroids_with_Numba',
               link: 'https://github.com/YassineElGhizi/python_on_steroids_with_Numba',
               image: 'https://user-images.githubusercontent.com/86019502/144307900-ce1b8b67-c601-4aae-a12c-1661657fa2e9.PNG'
-            },
+            }
           ],
 
           // Contact
